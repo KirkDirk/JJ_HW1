@@ -18,45 +18,67 @@ public class Cart<T extends Food> {
      * Балансировка корзины
      */
     public void cartBalancing(Class<T> clazz) {
-        boolean proteins = false;
-        boolean fats = false;
-        boolean carbohydrates = false;
+//        boolean proteins = false;
+//        boolean fats = false;
+//        boolean carbohydrates = false;
 
-        for (var food : foodstuffs) {
-            if (!proteins && food.getProteins())
-                proteins = true;
-            else if (!fats && food.getFats())
-                fats = true;
-            else if (!carbohydrates && food.getCarbohydrates())
-                carbohydrates = true;
-            if (carbohydrates && fats && proteins)
-                break;
+//        for (var food : foodstuffs) {
+//            if (!proteins && food.getProteins())
+//                proteins = true;
+//            else if (!fats && food.getFats())
+//                fats = true;
+//            else if (!carbohydrates && food.getCarbohydrates())
+//                carbohydrates = true;
+//            if (carbohydrates && fats && proteins)
+//                break;
+//        }
+        if (foodstuffs.stream().noneMatch(Food::getProteins)) {
+            foodstuffs.add(market.getThings(clazz).stream()
+                    .filter(Food::getProteins)
+                    .findFirst()
+                    .orElse(null));
+            System.out.println("Для балансировки корзины добавлены протеины");
         }
-        if (carbohydrates && fats && proteins) {
-            System.out.println("Корзина уже сбалансирована по БЖУ.");
-            return;
+        if (foodstuffs.stream().noneMatch(Food::getFats)) {
+            foodstuffs.add(market.getThings(clazz).stream()
+                    .filter(Food::getFats)
+                    .findFirst()
+                    .orElse(null));
+            System.out.println("Для балансировки корзины добавлены жиры");
+        }
+        if (foodstuffs.stream().noneMatch(Food::getCarbohydrates)) {
+            foodstuffs.add(market.getThings(clazz).stream()
+                    .filter(Food::getCarbohydrates)
+                    .findFirst()
+                    .orElse(null));
+            System.out.println("Для балансировки корзины добавлены углеводы");
         }
 
-        for (var thing : market.getThings(Food.class)) {
-            if (!proteins && thing.getProteins()) {
-                proteins = true;
-                foodstuffs.add((T)thing);
-            }
-            else if (!fats && thing.getFats()) {
-                fats = true;
-                foodstuffs.add((T)thing);
-            }
-            else if (!carbohydrates && thing.getCarbohydrates()) {
-                carbohydrates = true;
-                foodstuffs.add((T)thing);
-            }
-            if (carbohydrates && fats && proteins)
-                break;
-        }
-        if (carbohydrates && fats && proteins)
+//        if (carbohydrates && fats && proteins) {
+//            System.out.println("Корзина уже сбалансирована по БЖУ.");
+//            return;
+//        }
+
+//        for (var thing : market.getThings(Food.class)) {
+//            if (!proteins && thing.getProteins()) {
+//                proteins = true;
+//                foodstuffs.add((T)thing);
+//            }
+//            else if (!fats && thing.getFats()) {
+//                fats = true;
+//                foodstuffs.add((T)thing);
+//            }
+//            else if (!carbohydrates && thing.getCarbohydrates()) {
+//                carbohydrates = true;
+//                foodstuffs.add((T)thing);
+//            }
+//            if (carbohydrates && fats && proteins)
+//                break;
+//        }
+//        if (carbohydrates && fats && proteins)
             System.out.println("Корзина сбалансирована по БЖУ.");
-        else
-            System.out.println("Невозможно сбалансировать корзину по БЖУ.");
+//        else
+//            System.out.println("Невозможно сбалансировать корзину по БЖУ.");
     }
 
     /**

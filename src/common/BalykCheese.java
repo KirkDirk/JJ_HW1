@@ -20,6 +20,6 @@ public class BalykCheese implements Snack {
     }
     @Override
     public String getName() {
-        return "Сыр (Балык)";
+        return "Сыр Балык";
     }
 }

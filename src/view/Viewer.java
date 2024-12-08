@@ -49,8 +49,8 @@ public class Viewer {
                 scanner.nextLine();
             }
         }
-
     }
+
     private static <T extends Food> void createCart(Class<T> clazz, UMarket market) {
         Cart<T> cart = new Cart<>(clazz, market);
 

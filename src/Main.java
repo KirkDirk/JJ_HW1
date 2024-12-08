@@ -23,7 +23,7 @@ public class Main {
 
         //endregion
 
-        //region seminar task
+        //region the seminar task
 
 /*
   Задача: Техническое задание на разработку информационной системы UMarket

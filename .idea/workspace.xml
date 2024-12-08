@@ -4,30 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e39c53a-7b69-46b3-b51c-39f0c6940ca7" name="Changes" comment="Initial commit + standart task">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/UMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/BalykCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Cheburek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/ChocolateBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Crisps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/DumplingsBerries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/DumplingsMeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/OliveOil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/interfaces/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/interfaces/HealthyFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/interfaces/PfcInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/interfaces/SemiFinishedFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/interfaces/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/interfaces/Thing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Viewer.java" afterDir="false" />
+    <list default="true" id="5e39c53a-7b69-46b3-b51c-39f0c6940ca7" name="Changes" comment="Add seminar code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/UMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/UMarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/BalykCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/BalykCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Viewer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,36 +27,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KirkDirk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KirkDirk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KirkDirk/JJ_HW1.git",
-    "accountId": "71a6a0b0-8ac9-49ec-bb7b-b66ba58f7dd5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KirkDirk/JJ_HW1.git&quot;,
+    &quot;accountId&quot;: &quot;71a6a0b0-8ac9-49ec-bb7b-b66ba58f7dd5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2phliHZprQwE4MQjK8TUlvcqgms" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="common" />
@@ -99,11 +82,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733229191349</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add seminar code">
+      <option name="closed" value="true" />
+      <created>1733235291265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235291265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit + standart task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit + standart task" />
+    <MESSAGE value="Add seminar code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add seminar code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/Cart.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

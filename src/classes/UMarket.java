@@ -6,6 +6,7 @@ import common.interfaces.Thing;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -40,8 +41,8 @@ public class UMarket {
                 .map(clazz::cast)
                 .findFirst()
                 .orElse(null);
-
     }
+
     public <T extends Thing> Collection<T> getThings(Class<T> clazz) {
 //        Collection<T> list = new ArrayList<>();
 //        for (var thing : things) {
@@ -99,7 +100,7 @@ public class UMarket {
         things.add(new Fruit());
         things.add(new OliveOil());
 
-//        things.add(new BalykCheese());
+        things.add(new BalykCheese());
         things.add(new Crisps());
         things.add(new ChocolateBar());
 
